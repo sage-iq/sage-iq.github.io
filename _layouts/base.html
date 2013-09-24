@@ -3,12 +3,10 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width">
-		<link rel="shortcut icon" href="{{ STATIC_URL }}/favicon.ico"> 
-		{% block header %}
-		<title>Sage IQ</title>
-		{% endblock %}
+		<link rel="shortcut icon" href="/favicon.ico"> 
+		<title>{{page.title}}</title>
 
-	<link href="{{ STATIC_URL }}/css/bootstrap.css" rel="stylesheet">
+	<link href="/css/bootstrap.css" rel="stylesheet">
 	<style>
 	@import url(//fonts.googleapis.com/css?family=Armata|Electrolize);
 	body,table{font-size:11px;font-family:'Armata',Verdana,"Bitstream Vera Sans",Geneva,sans-serif}
@@ -17,9 +15,7 @@
 </head>
 <body>
 	<div class="container">
-	{% block content %}
-	Main content
-	{% endblock %}
+		{{content}}
 	</div>
 </body>
 </html>
