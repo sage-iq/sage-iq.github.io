@@ -1,1 +1,1 @@
-scp -r .build/* ubuntu@ojas.net:/opt/sage-iq
+scp -r _site/* ubuntu@ojas.net:/opt/sage-iq
