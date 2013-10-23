@@ -1,0 +1,14 @@
+{
+	"student" :
+	{
+		"firstName" : "Umar",
+		"lastName" : "Siddiqui"
+	},
+	"course" :
+	{
+		"id" : "AGL-141",
+		"name" : "Agile Certification Focus in Scrum and XP, Project-Based",
+		"status" : "Passed",
+		"completed" : "11-Nov-2011"
+	}
+}
