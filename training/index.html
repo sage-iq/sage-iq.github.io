@@ -51,6 +51,14 @@ title: Sage IQ - Training
 		</div>
 		<div class="span2"></div>
 	</div>
+	<div id="vx-err" style="display:none" class="row">
+		<div class="span2"></div>
+		<div class="span8">
+			<h3>Course Verification</h3>
+			No enrollment for this ID found.
+		</div>
+		<div class="span2"></div>
+	</div>
 
 
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
@@ -66,13 +74,17 @@ title: Sage IQ - Training
 		if (id)
 		{		
 			$('#id').val(id);
-			$.getJSON('../data/' + id + '.json', function(data){
+			$.getJSON('data/' + id + '.json')
+			.done(function(data){
 				$('#vx').show();
 				$('#name').text(data.student.firstName + ' ' + data.student.lastName);
 				$('#course_id').text(data.course.id);
 				$('#course_name').text(data.course.name);
 				$('#course_state').text(data.course.status);
 				$('#course_date').text(data.course.completed);
+			})
+			.fail(function(){
+				$('#vx-err').show();
 			})
 		}
 	})
