@@ -1,9 +1,7 @@
-build:
-	jekyll build -w
-
-serve:
-	jekyll serve --port 4001
+SHELL := /bin/bash
 
 deploy:
 	scp -r _site/* ubuntu@ojas.net:/opt/sage-iq
-#	rsync -avz _site/* ssh ubuntu@ojas.net:/opt/sage-iq
+
+deploy2:
+	scp -r _site/* paprika.cloudapp.net:/opt/sage-iq
