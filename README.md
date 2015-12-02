@@ -1,12 +1,18 @@
 # Sage IQ Site
 
-Build
+## Setup
+
+```
+gem install jekyll
+```
+
+## Build
 
     jekyll build -w
 
     jekyll serve
 
-Deploy
+### Deploy
 
     scp -r _site/* ubuntu@ojas.net:/opt/sage-iq
 
