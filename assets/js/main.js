@@ -1,13 +1,10 @@
 ;(function(){
-
-			// Menu settings
-			$('#menuToggle, .menu-close').on('click', function(){
-				$('#menuToggle').toggleClass('active');
-				$('body').toggleClass('body-push-toleft');
-				$('#theMenu').toggleClass('menu-open');
-			});
-
-
+	// Menu settings
+	$('#menuToggle, .menu-close').on('click', function(){
+		$('#menuToggle').toggleClass('active');
+		$('body').toggleClass('body-push-toleft');
+		$('#theMenu').toggleClass('menu-open');
+	});
 
   // Show contact form
   $('.show-contact-form').click(function(e) {
@@ -73,23 +70,4 @@
 
     }
   });
-
-  $('.contact-form-link').click(function(e){
-    e.preventDefault();
-    var interest = $(this).data('interest');
-    var href = $(this).attr('href');
-    var $select = $('#contact-interest');
-    $('.show-contact-form').click();
-    $('html, body').animate({
-      scrollTop: $(href).offset().top
-    });
-    setTimeout(function() {
-      if (interest=='test_drive_api')
-        $select.val('Buying Data');
-      else if (interest=='become_partner')
-        $select.val('Providing Data');
-      $('#contact-first-name').focus();
-    }, 500);
-  })
-
 })(jQuery)
