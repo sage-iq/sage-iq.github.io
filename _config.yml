@@ -1,3 +1,4 @@
 name: Sage IQ
 markdown: redcarpet
 highlighter: true
+exclude: [README.md, makefile]

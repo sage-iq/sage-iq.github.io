@@ -520,3 +520,196 @@ a:after {
 .thing{
 	padding-bottom: 0.5em;
 }
+
+
+/* Contact Form */
+.contact h3 {
+	font-weight: 700;
+	color: #7b7b7b;
+	letter-spacing: 1px;
+}
+.contact .form-group {
+  text-align: left;
+}
+.contact .btn {
+  position: relative;
+}
+.contact .btn i {
+  margin-left: 10px;
+}
+.contact .show-contact-form {
+  margin-top: 0;
+}
+.contact .submit-form {
+  overflow: hidden;
+}
+.contact .submit-form .icon-paperplane {
+  position: relative;
+  left: 0;
+}
+.contact .submit-form.sending {
+  color: transparent;
+  -webkit-transition: all 3s ease-in;
+  transition: all 3s ease-in;
+}
+.contact .submit-form.sending .icon-paperplane {
+  left: 150px;
+}
+.contact .submit-form.submitting [class^="icon-"] {
+  -webkit-animation: spinner 1.5s linear infinite;
+  animation: spinner 1.5s linear infinite;
+}
+.contact .submit-form.btn-primary-green {
+  background-color: #69C568;
+  border-color: #69C568;
+}
+.contact .submit-form.btn-primary-green:hover,
+.contact .submit-form.btn-primary-green:focus {
+  background-color: #53bd52;
+  border-color: #53bd52;
+}
+.contact .submit-form .icon-cancel {
+  margin-top: 4px;
+  position: absolute;
+  right: 10px;
+}
+#contact-form .form-group {
+  margin-bottom: 10px;
+}
+#contact-form .btn {
+  margin-top: 0;
+  padding: 15px 30px;
+}
+#contact-form .form-elements,
+#contact-form .submit-form {
+  display: none;
+}
+.has-error .form-control {
+  padding-right: 40px;
+}
+.has-error .input__label {
+  color: #cf3154;
+}
+.has-error .input__label:after {
+  content: url('../img/icon-form-error.png');
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 17px;
+  right: 13px;
+  font-family: icomoon;
+  z-index: 100;
+}
+.has-error.select .input__label:after {
+  right: 33px;
+}
+.form-error-msg {
+  display: none;
+  color: #cf3154;
+  background-color: #FFF;
+  padding: 14px;
+  margin-bottom: 40px;
+  text-align: left;
+  border-radius: 2px;
+}
+.form-error-msg img {
+  margin-top: -4px;
+  margin-right: 6px;
+}
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.input__label {
+  display: inline-block;
+  float: right;
+  color: #728d96;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  text-align: left;
+  border-radius: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.input__label:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0px solid transparent;
+  -webkit-transition: border-width 0.3s, border-color 0.3s;
+  transition: border-width 0.3s, border-color 0.3s;
+}
+.input__label-content {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 1em;
+  -webkit-transform-origin: 0% 50%;
+  -ms-transform-origin: 0% 50%;
+      transform-origin: 0% 50%;
+  -webkit-transition: -webkit-transform 0.3s, color 0.3s;
+  transition: transform 0.3s, color 0.3s;
+  text-rendering: geometricPrecision;
+}
+/* Juro */
+.input--juro {
+  overflow: hidden;
+}
+.input--juro.input,
+.input--juro.select {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+.input__field--juro {
+  position: absolute;
+  z-index: 100;
+  padding: 1.8em 0.75em 7px;
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+  line-height: 22px;
+  background: transparent;
+  color: #002e41;
+  border: none;
+  -webkit-appearance: none;
+}
+select.input__field--juro {
+  padding: 1.2em 0.75em 1.1em;
+}
+.input__field--juro:not(select):focus + .input__label--juro .input__label-content--juro,
+.input--filled .input__label--juro .input__label-content--juro {
+  -webkit-transform: translate3d(0, -0.75em, 0) scale3d(0.75, 0.75, 1) translateZ(1px);
+  -ms-transform: translate3d(0, -0.75em, 0) scale3d(0.75, 0.75, 1) translateZ(1px);
+  transform: translate3d(0, -0.75em, 0) scale3d(0.75, 0.75, 1) translateZ(1px);
+}
+
