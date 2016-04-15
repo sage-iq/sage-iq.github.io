@@ -19,15 +19,15 @@
     <title>{{page.title}}</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/hover.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/hover.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/Chart.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/Chart.js"></script>
 	
 
 	
@@ -46,13 +46,13 @@
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a href="index.html">Sage IQ</a></h1>
+			<h1 class="logo"><a href="/">Sage IQ</a></h1>
 			<i class="icon-remove menu-cl"></i>
-			<a href="#home" class="smoothScroll">Home</a>
-			<a href="#services" class="smoothScroll">Services</a>
-			<a href="#special" class="smoothScroll">Specialties</a>
-			<a href="#exp" class="smoothScroll">Experience</a>
-			<a href="#contact" class="smoothScroll">Contact</a>
+			<a href="/#home" class="smoothScroll">Home</a>
+			<a href="/#services" class="smoothScroll">Services</a>
+			<a href="/#special" class="smoothScroll">Specialties</a>
+			<a href="/#exp" class="smoothScroll">Experience</a>
+			<a href="/#contact" class="smoothScroll">Contact</a>
 		</div>
 		
 		<!-- Menu button -->
@@ -66,7 +66,7 @@
 	<div id="headerwrap">
 		<div class="container">
 			<br>
-			<h1><img class="logo shadowed" src="assets/img/sage-iq-logo-no-white2.png"></h1>
+			<h1><img class="logo shadowed" src="/assets/img/sage-iq-logo-no-white2.png"></h1>
 			<h2>People. Strategy. Technology.</h2>
 			<div class="row">
 				<br>
@@ -84,7 +84,7 @@
 	<div id="f">
 		<div class="container">
 			<div class="row">
-				&copy; 2015 Sage IQ Consulting
+				&copy; {{ site.time | date: "%Y" }} Sage IQ Consulting
 			</div>
 		</div><!-- /container -->
 	</div><!-- /f -->
@@ -92,9 +92,24 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-	<script src="assets/js/classie.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/smoothscroll.js"></script>
-	<script src="assets/js/main.js"></script>
+	<script src="/assets/js/classie.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/smoothscroll.js"></script>
+	<script src="/assets/js/main.js"></script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/56b275e90a3b37c87676645b/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
 </body>
 </html>

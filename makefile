@@ -1,5 +1,11 @@
 SHELL := /bin/bash
 
+run:
+	jekyll serve
+
+build:
+	jekyll build -w
+
 deploy:
 	scp -r _site/* ubuntu@ojas.net:/opt/sage-iq
 
