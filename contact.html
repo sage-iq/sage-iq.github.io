@@ -1,53 +1,28 @@
 ---
-layout: onassis
+layout: main
 title: Contact Us – Sage IQ Consulting
 ---
 
-<!-- ========== WHITE SECTION ========== -->
-<div id="w">
-	<div class="container">
+<!-- form for contact page -->
+<div class="container">
+	<form>
 		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-			<h3><bold>Hit us up homie.</bold>
-			</h3>
+			<div class="six columns">
+				<label for="exampleEmailInput">Your email</label>
+				<input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+			</div>
+			<div class="six columns">
+				<label for="exampleRecipientInput">Reason for contacting</label>
+				<select class="u-full-width" id="exampleRecipientInput">
+					<option value="Option 1">Questions</option>
+					<option value="Option 2">Admiration</option>
+					<option value="Option 3">Can I get your number?</option>
+				</select>
 			</div>
 		</div>
-	</div><!-- /container -->
-</div><!-- /w -->
-
-<!-- ========== SERVICES - GREY SECTION ========== -->
-
-<!-- ========== CAROUSEL / DESCRIPTION - DARK GREY SECTION ========== -->
-<div id="dg">
-	<div class="container">
-		<div class="row">
-
-			<div id="workers">
-			<h3>LEADERSHIP</h3>
-				<div id="centercontainer">
-					<div class=" col-lg-6 team">
-						<img class="img-circle" src="assets/img/ojas-headshot.jpg" height="90" width="90">
-						<h4>Ojas Patel</h4>
-						<h5><i>Boss</i></h5>
-						<p>Prior to founding Sage IQ, Ojas helped found the innovation lab at Hoover’s where he developed cutting edge proof-of-concepts, user-interfaces, and technologies; he architected & developed innovative applications around complex solution configuration, data-center thermal & power modeling, and proprietary product lifecycle management applications. Ojas holds a BS in Electrical Engineering from WKU.</p>
-					</div>
-
-					<div class="col-lg-6 team">
-						<img class="img-circle" src="assets/img/sreeni-headshot.jpg" height="90" width="90">
-						<h4>Sreeni Sathyanarayana</h4>
-						<h5><i>Boss Man</i></h5>
-						<p>Prior to joining Sage IQ as a managing partner, Sreeni was a Senior Enterprise Architect at Dell where he architected their industry leading multi-channel e-commerce and solution configuration platforms. He spent 12 years at Dell in the roles of a senior software developer & lead, application architect, and enterprise architect. Sreeni holds an MS in Mechanical Engineering from Texas A&M University.</p>
-					</div>
-
-					<!-- -->
-				</div>
-			</div>
-			
-		</div>
-		<div class="row">
-		<br>
-		<br>
-			
-		</div>
-	</div>
-</div><!-- /dg -->
+		<label for="exampleMessage">Message</label>
+		<textarea class="u-full-width" placeholder="Hi Sage …" id="exampleMessage"></textarea>
+		<span style="float: right">Prefer email? You can always reach us at <a class="email" href="mailto:info@sage-iq.com">info@sage-iq.com</a>.</span>
+		<input class="button-primary" type="submit" value="Submit">
+	</form>
+</div>
