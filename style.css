@@ -1,0 +1,72 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover
+{
+     text-decoration:none;
+     cursor:pointer;
+}
+.logotitle{
+  display: inline;
+  margin-bottom:  100px;
+  margin-top: 0px;
+}
+.headertxt1{
+  display: inline;
+  margin: 1.5em;
+}
+.headertxt1:hover{
+  color: green;
+}
+.headertxt2{
+  display: inline;
+  margin: 1.5em;
+}
+.headertxt2:hover{
+  color: green;
+}
+
+.two{
+  padding-top: 85px;
+  padding-left: 100px;
+}
+.graphic-div{
+  text-align: center;
+}
+.graphic{
+  width: 1113px;
+  height: 682px;
+}
+.footer-div{
+  text-align: center;
+}
+.footer-contact{
+  margin-top: 20em;
+}
+.email{
+  color: green;
+}
+.email:hover{
+  color: green;
+}
+.grid-unit{
+  width: 330px;
+  height: 330px;
+}
+.project-pic-container{
+  overflow: hidden;
+}
+.project-pic-container:hover{
+  background-color: rgba(33, 178, 33, .5);
+
+}
+.project-pic{
+
+}
+.about-info{
+  text-align: center;
+}
+.about-txt{
+  font-size: 16px;
+}
