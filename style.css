@@ -44,6 +44,12 @@ a:hover
 .footer-contact{
   margin-top: 20em;
 }
+.footer-txt{
+  text-align: center;
+}
+.socialmedia{
+  margin: 0.5em;
+}
 .email{
   color: green;
 }
