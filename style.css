@@ -12,6 +12,9 @@ a:hover
   margin-bottom:  100px;
   margin-top: 0px;
 }
+.home-txt{
+  text-align: center;
+}
 .headertxt1{
   display: inline;
   margin: 1.5em;
@@ -26,6 +29,57 @@ a:hover
 .headertxt2:hover{
   color: green;
 }
+.aaa{
+  margin-top: 1em;
+}
+.card {
+  border-radius: 10px;
+  background: #fff;
+  -webkit-box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+  box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+}
+/*#eaa{
+  display: none;
+}
+.eaa-div:hover #eaa{
+  display: block;
+}
+.eaa-div:hover #eaa-title{
+  display: none;
+}*/
+
+
+
+/*#pps{
+  display: none;
+}
+.pps-div:hover #pps{
+  display: block;
+}
+.pps-div:hover #pps-title{
+  display: none;
+}*/
+
+/*#sdi{
+  display: none;
+}
+.sdi-div:hover #sdi{
+  display: block;
+}
+.sdi-div:hover #sdi-title{
+  display: none;
+}*/
+
+
+/*.pps-div{
+  background-color: green;
+}
+.eaa-div{
+  background-color: pink;
+}
+.sdi-div{
+  background-color: orange;
+}*/
 
 .two{
   padding-top: 85px;
@@ -40,12 +94,16 @@ a:hover
 }
 .footer-div{
   text-align: center;
+  margin-top: 15em;
 }
 .footer-contact{
   margin-top: 20em;
 }
 .footer-txt{
   text-align: center;
+}
+.footer-txt2{
+  margin-top: 25px;
 }
 .socialmedia{
   margin: 0.5em;
@@ -60,13 +118,19 @@ a:hover
   width: 330px;
   height: 330px;
 }
+.dataexchange{
+  margin-left: 5em;
+}
+.tea{
+  margin-left: 3em;
+}
 .project-pic-container{
   overflow: hidden;
 }
-.project-pic-container:hover{
+/*.project-pic-container:hover{
   background-color: rgba(33, 178, 33, .5);
 
-}
+}*/
 .project-pic{
 
 }
