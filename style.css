@@ -7,6 +7,7 @@ a:hover
      text-decoration:none;
      cursor:pointer;
 }
+
 .logotitle{
   display: inline;
   margin-bottom:  100px;
@@ -17,7 +18,8 @@ a:hover
 }
 .headertxt1{
   display: inline;
-  margin: 1.5em;
+  font-size: 20px;
+  /*margin: 1.5em;*/
 }
 .headertxt1:hover{
   color: green;
@@ -85,7 +87,6 @@ a:hover
 
 .two{
   padding-top: 85px;
-  padding-left: 100px;
 }
 .graphic-div{
   text-align: center;
@@ -136,9 +137,15 @@ a:hover
 .project-pic{
 
 }
+.group-pic{
+  margin: 5em;
+}
 .about-info{
   text-align: center;
 }
 .about-txt{
   font-size: 16px;
+}
+.special{
+  text-align: center;
 }
