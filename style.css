@@ -7,7 +7,17 @@ a:hover
      text-decoration:none;
      cursor:pointer;
 }
-
+.heading{
+  font-family: 'Dosis', sans-serif;
+}
+.bold-heading{
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+}
+.subheading{
+  /*font-family: 'Oswald', sans-serif;*/
+  font-weight: bold;
+}
 .logotitle{
   display: inline;
   margin-bottom:  100px;
@@ -19,6 +29,7 @@ a:hover
 .headertxt1{
   display: inline;
   font-size: 20px;
+  font-family: 'Dosis', sans-serif;
   /*margin: 1.5em;*/
 }
 .headertxt1:hover{
@@ -39,8 +50,10 @@ a:hover
   background: #fff;
   /*-webkit-box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
   box-shadow: 3px 3px 7px rgba(0,0,0,0.3);*/
-  border-style: dotted dashed inset double;
-  border-color: green;
+  /*border-style: dotted dashed inset double;
+  border-color: green;*/
+  margin-top: 3em;
+
 }
 /*#eaa{
   display: none;
@@ -148,4 +161,5 @@ a:hover
 }
 .special{
   text-align: center;
+  margin-top: 3em;
 }
