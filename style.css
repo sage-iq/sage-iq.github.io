@@ -15,7 +15,10 @@ a:hover
   font-weight: bold;
 }
 .subheading{
-  /*font-family: 'Oswald', sans-serif;*/
+  font-weight: bold;
+  color: green;
+}
+.subheading2{
   font-weight: bold;
 }
 .logotitle{
@@ -43,17 +46,18 @@ a:hover
   color: green;
 }
 .aaa{
-  margin-top: 1em;
+  margin-top: 3em;
 }
 .card {
-  border-radius: 10px;
+  /*border-radius: 10px;
   background: #fff;
-  /*-webkit-box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
   box-shadow: 3px 3px 7px rgba(0,0,0,0.3);*/
   /*border-style: dotted dashed inset double;
   border-color: green;*/
   margin-top: 3em;
-
+  /*width: 600px;*/
+  padding: 100px;
 }
 /*#eaa{
   display: none;
