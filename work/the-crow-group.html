@@ -1,6 +1,8 @@
 ---
-layout: work
-title: The Crow Group
-client: The Crow Group
-project: Investor Portal
+layout: agency
+project_id: tcg
 ---
+{% assign project = site.data.projects[page.project_id] %}
+{% assign title = project.name %}
+
+{% include project_detail.html %}

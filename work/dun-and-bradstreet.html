@@ -1,6 +1,9 @@
 ---
-layout: work
-title: D&B 
-client: Dun & Bradstreet
-project: Data Exchange
+layout: agency
+project_id: dx
 ---
+{% assign project = site.data.projects[page.project_id] %}
+{% assign title = project.name %}
+{% assign page.title = "hahaha" %}
+
+{% include project_detail.html %}

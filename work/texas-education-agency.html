@@ -1,6 +1,8 @@
 ---
-layout: work
+layout: agency
 title: Texas Education Agency
-client: Texas Education Agency
-project: Web-Based Improvement Plan
+project_id: tea
 ---
+{% assign project = site.data.projects[page.project_id] %}
+
+{% include project_detail.html %}
