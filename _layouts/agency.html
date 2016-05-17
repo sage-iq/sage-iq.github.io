@@ -2,11 +2,13 @@
 <html>
 {% include head.html %}
     <body id="page-top" class="index {{page.body_class}}">
+    {% comment %}
     {% if page.body_class == 'home' %}
-    {% include header.html %}
+    {% include header_home.html %}
     {% else %}
     {% include header_slim.html %}
     {% endif %}
+    {% endcomment %}
     {{content}}
     {% include footer.html %}
     {% include modals.html %}

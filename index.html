@@ -6,14 +6,20 @@ body_class: home
 
 <div class="home">
 
+    {% include header_home.html %}
     {% include services.html %}
+    {% include specialities.html %}
     {% include portfolio_grid.html %}
-    {% include about.html %}
+  {% comment %}
+  {% include about.html %}
+  {% endcomment %}
     {% include team.html %}
-    {% include clients.html %}
+  {% comment %}
+  {% include clients.html %}
+  {% endcomment %}
     {% include contact.html %}
 
-
+{% comment %}
   <h1>Posts</h1>
 
   <ul class="posts">
@@ -26,5 +32,6 @@ body_class: home
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+{% endcomment %}
 
 </div>

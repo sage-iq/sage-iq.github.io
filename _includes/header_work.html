@@ -18,7 +18,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="/#page-top"></a>
+                        <a href="/"></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/#services">Services</a>
@@ -46,8 +46,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-heading">{{page.title}}</div>
-                <div class="intro-lead-in">{{page.leadin}}</div>
+                <img src="/assets/img/work-{{page.project_id}}-white.png" style="height:80px">
+                <div class="intro-heading" style="font-size: 50px;margin: 25px 0">{{project.client}}</div>
+                <div class="intro-lead-in" style="font-size: 24px">{{project.about}}</div>
             </div>
         </div>
     </header>

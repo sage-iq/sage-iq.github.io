@@ -4,6 +4,7 @@ tea:
   about: The Program Monitoring and Interventions Division of TEA is responsible for reviewing, evaluating, and monitoring the second-largest education system in the country.
   objective: Launch a modern system where educators, support staff, and reviewers at TEA can efficiently collaborate on their campus & district improvement plans, replacing cumbersome manual file- and email-based processes.
   ourRole: We were brought in to design and develop a modern accountability system with a focus on user-experience as well as the ability to easily adapt to changing state guidelines and standards. Following a design sprint, we developed a flexible & customizable accountabilty system; integrated it into the existing TEA application suite; conducted usablity sessions; and launched the system into production.
+  img: /assets/img/work-tea.png
   technologies: "
 <ul>
   <li>ASP.Net 2.x, API.Net 4.5</li>
@@ -22,6 +23,7 @@ tcg:
   objective: Launch an investor portal where their growing list of investors can track their portfolio, view prospectuses, and stay abreast of new real-estate projects. 
   ourRole: We came in to design, develop, host, and support the investor portal, CMS-driven marketing site, and backoffice management interface.
   results: Today investors view their funds performance, download statements and other documentings, and get the last news on new projets from permitting to acquistion to sale.
+  img: /assets/img/work-tcg.png
   technologies: "
 <ul>
   <li>Django 1.9</li>
@@ -31,7 +33,7 @@ tcg:
   <li>Microsoft Azure</li>
 </ul>
   "
-dx:
+dnb:
   name: D&B Data Exchange
   client: Dun & Bradstreet
   about: For over 175 years, Dun & Bradstreet has used the power of business data, insight, and analytics to help companies grow worldwide.
@@ -39,6 +41,7 @@ dx:
   ourRole: "<p>D&B needed a performant, data-consistant, scalable, developer-friendly API and data management platform to meet the demands of its growing API customer-base and expanding data partner network, as well as showcase Data Exchange at Dreamforce 2015.</p>
             <p>We were brought in to design, implement, and support the Data Exchange offering from the ground-up. Starting with a proof-of-concept which demonstrated the viability of the technical approach, we built an agile team consisting of D&B and Sage IQ resources, developed a product backlog, project roadmap, trained engineers, and started building the platform. The project was expanded to included marketing & developer sites, integrations into Salesforce, and internal sales tools all built by Sage IQ.</p>"
   results: Launched into production and showcased at Dreamforce, the Data Exchange continues to grow and represents an evolution of a 175 year old organization towards a modern platform-based company.
+  img: /assets/img/work-dnb.png
   technologies: "
 <ul>
   <li>Data Exchange Platform<ul>

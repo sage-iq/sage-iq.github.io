@@ -872,26 +872,32 @@ body {
 
 
 
-.client-work
-{
-    height: 300px;
-    display: inline-block;
-    position: relative;
-    overflow: visible;
+
+/* customizations */
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
 }
 
-@media screen and (min-width: 0px) {
+.client-work
+{
+    display: block;
+    position: relative;
+    overflow: visible;
+    width: 100%;
+}
+
+@media screen and (min-width: 500px) {
     .client-work
     {
-        width: 50%;
         height: 300px;
     }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1140px) {
     .client-work
     {
-        width: 320px;
         height: 300px;
     }
 }
@@ -900,13 +906,13 @@ body {
     width:100%;
     height:100%;
     position:absolute;
-    background-color:#fff;
+    background-color:#000;
     opacity:0;
     transition: opacity 0.2s linear;
 }
 
 
-.client-work > .client-work-bg
+.client-work > .client-work-logo
 {
     position: absolute;
     height: 100%;
@@ -914,6 +920,8 @@ body {
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: center center;
+    opacity:0.8;
+    transition: all 0.5s ease-in-out;
 }
 
 /*.client-work:hover
@@ -926,7 +934,12 @@ body {
     background-position: center center;
 }*/
 
-.client-work > .client-work-bg:hover
+.client-work:hover .client-work-logo {
+    opacity:1;
+    background-position: center 70px;
+}
+
+.client-work > .client-work-logo:hover
 {
 
 }
@@ -950,6 +963,8 @@ body {
     font-weight: bold;
     color: #666;
 }
+
+
 
 .grayout
 {
@@ -977,6 +992,7 @@ body {
 .client-work .client-work-description h2
 {
     font-size: 20px;
+    color: #{{ site.data.template.color.primary }};
 }
 .client-work:hover .client-work-description
 {

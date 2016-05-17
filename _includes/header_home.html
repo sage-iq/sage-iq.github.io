@@ -18,22 +18,22 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="/#page-top"></a>
+                        <a href="{% unless page.url == '/' %}/{% endunless %}#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/#services">Services</a>
+                        <a class="page-scroll" href="{% unless page.url == '/' %}/{% endunless %}#services">Services</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/#projects">Projects</a>
+                        <a class="page-scroll" href="{% unless page.url == '/' %}/{% endunless %}#projects">Projects</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/#about">About</a>
+                        <a class="page-scroll" href="{% unless page.url == '/' %}/{% endunless %}#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/#team">Team</a>
+                        <a class="page-scroll" href="{% unless page.url == '/' %}/{% endunless %}#team">Team</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/#contact">Contact</a>
+                        <a class="page-scroll" href="{% unless page.url == '/' %}/{% endunless %}#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -46,9 +46,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in">Howdy!</div>
+                <div class="intro-heading">We are Sage IQ</div>
+                <a href="#services" class="page-scroll btn btn-xl">Learn More About Us</a>
             </div>
         </div>
     </header>
