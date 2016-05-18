@@ -266,7 +266,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}assets2/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}assets/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -660,7 +660,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}assets2/img/map-image.png');
+    background-image: url('{{ site.baseurl }}assets/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -980,6 +980,14 @@ body {
 {
     filter: none;
     -webkit-filter: grayscale(0%);
+}
+
+.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscalerayscale");
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
 }
 
 .client-work .client-work-description

@@ -3,8 +3,29 @@ markdown: redcarpet
 highlighter: true
 title: Sage IQ
 email: info@sage-iq.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Sage IQ offers consulting, design, and implementation services for your business software needs. We bring a wealth of knowledge and practical experience in the areas of Platforms & Product Strategy, Enterprise & Application Architecture, and Software Development & Integration."
 baseurl: /
 exclude: [README.md, makefile]
 
 google_analytics_tracking_id: UA-77677545-1
+
+people:
+- name: Ojas Patel
+  position: Managing Partner
+  bio: Prior to founding Sage IQ, Ojas helped found the innovation lab at Hoover’s where he developed cutting edge proof-of-concepts, user-interfaces, and technologies; he architected & developed innovative applications around complex solution configuration, data-center thermal & power modeling, and proprietary product lifecycle management applications. Ojas holds a BS in Electrical Engineering from WKU.
+  pic: /assets/img/ojas-headshot.jpg
+- name: Sreeni Sathyanarayana
+  position: Managing Partner
+  bio: Prior to joining Sage IQ as a managing partner, Sreeni was a Senior Enterprise Architect at Dell where he architected their industry leading multi-channel e-commerce and solution configuration platforms. He spent 12 years at Dell in the roles of a senior software developer & lead, application architect, and enterprise architect. Sreeni holds an MS in Mechanical Engineering from Texas A&M University.
+  pic: /assets/img/sreeni-headshot.jpg
+  # social:
+  #   - title: twitter
+  #     url: #
+  #   - title: facebook
+  #     url: #
+  #   - title: stack-overflow
+  #     url: #
+
+social:
+  - title: linkedin
+    url: https://linkedin.com/company/sage-iq

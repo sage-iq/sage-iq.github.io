@@ -2,16 +2,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}</span>
+                    <span class="copyright pull-left">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}</span>
                 </div>
+                <div class="col-md-4"></div>
                 <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
+                    <ul class="list-inline social-buttons pull-right">
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
                         </li>
                         {% endfor %}
                     </ul>
                 </div>
+                {% comment %}
+                TODO
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
                         <li><a href="#">Privacy Policy</a>
@@ -20,6 +23,9 @@
                         </li>
                     </ul>
                 </div>
+                {% endcomment %}
             </div>
         </div>
     </footer>
+
+    {% comment %}TODO - social links {% endcomment %}
