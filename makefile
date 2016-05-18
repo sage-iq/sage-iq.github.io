@@ -13,7 +13,8 @@ build:
 	jekyll build
 
 deploy: build
-	scp -r _site/* ubuntu@ojas.net:/opt/sage-iq
+#	scp -r _site/* ubuntu@ojas.net:/opt/sage-iq
+	rsync -avz _site/* ssh azureuser@sage-iq-playpen.cloudapp.net:/opt/www/sage-iq.com
 
 deploy-staging: build
 	rsync -avz _site/* ssh azureuser@sage-iq-playpen.cloudapp.net:/opt/www/staging-sage-iq.com
