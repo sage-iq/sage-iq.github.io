@@ -886,6 +886,7 @@ body {
     position: relative;
     overflow: visible;
     width: 100%;
+    height: 300px;
 }
 
 @media screen and (min-width: 500px) {
@@ -1015,22 +1016,4 @@ body {
 .client-work:hover .overlay {
     opacity:0.5;
     transition: opacity 0.2s linear;
-}
-
-
-ul.project-grid
-{
-    list-style-position: outside;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    }
-
-ul.project-grid li
-{
-    margin: 0;
-    list-style: none;
-    display: inline;
-    float: left;
-
 }
