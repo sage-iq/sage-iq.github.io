@@ -5,10 +5,8 @@ title: Sage IQ
 email: info@sage-iq.com
 description: "Sage IQ offers consulting, design, and implementation services for your business software needs. We bring a wealth of knowledge and practical experience in the areas of Platforms & Product Strategy, Enterprise & Application Architecture, and Software Development & Integration."
 baseurl: /
-exclude: [README.md, makefile, node_modules]
-
+exclude: [README.md, node_modules]
 google_analytics_tracking_id: UA-77677545-1
-
 people:
 - name: Ojas Patel
   position: Managing Partner
@@ -18,14 +16,6 @@ people:
   position: Managing Partner
   bio: Prior to joining Sage IQ as a managing partner, Sreeni was a Senior Enterprise Architect at Dell where he architected their industry leading multi-channel e-commerce and solution configuration platforms. He spent 12 years at Dell in the roles of a senior software developer & lead, application architect, and enterprise architect. Sreeni holds an MS in Mechanical Engineering from Texas A&M University.
   pic: /assets/img/sreeni-headshot.jpg
-  # social:
-  #   - title: twitter
-  #     url: #
-  #   - title: facebook
-  #     url: #
-  #   - title: stack-overflow
-  #     url: #
-
 social:
   - title: linkedin
     url: https://linkedin.com/company/sage-iq
