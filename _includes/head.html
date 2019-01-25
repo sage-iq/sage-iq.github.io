@@ -4,8 +4,8 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
-    <link rel="shortcut icon" href="{{ "assets/img/favicon-96x96.png" | prepend: site.baseurl }}" />
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="shortcut icon" href="{{ "/assets/img/favicon-96x96.png" }}" />
+    <link rel="canonical" href="https://sage-iq.com{{ page.url | replace:'index.html','' | remove: '.html' }}">
     <!--
        ________  ________  ________  _______           ___  ________
       |\   ____\|\   __  \|\   ____\|\  ___ \         |\  \|\   __  \
@@ -20,10 +20,10 @@
     -->
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link rel="stylesheet" href="{{ "assets/style.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/style.css" }}">
 
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="{{ "assets/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/font-awesome/css/font-awesome.min.css" }}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
