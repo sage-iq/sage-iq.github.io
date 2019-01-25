@@ -5,7 +5,7 @@ title: Sage IQ
 email: info@sage-iq.com
 description: "Sage IQ offers consulting, design, and implementation services for your business software needs. We bring a wealth of knowledge and practical experience in the areas of Platforms & Product Strategy, Enterprise & Application Architecture, and Software Development & Integration."
 baseurl: /
-exclude: [README.md, makefile]
+exclude: [README.md, makefile, node_modules]
 
 google_analytics_tracking_id: UA-77677545-1
 
